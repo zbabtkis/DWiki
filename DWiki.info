@@ -1,0 +1,9 @@
+name = DWiki
+description = Adds additional mediawiki like functionality to Drupal sites
+version = 7.x-1.0
+core = 7.x
+configure = admin/config/dwiki
+package = UCSB ERI
+dependencies[] = mediawiki_api
+dependencies[] = menu
+dependencies[] = wikitools
